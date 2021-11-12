@@ -8,6 +8,11 @@ from util import *
 from Handler import Handler
 from ScoreboardHandler import ScoreboardHandler
 from Contest import Contest, InvalidWebcastError
+from pygame import mixer
+currentDirectory = os.getcwd()
+strin = currentDirectory + "\\music\\"
+songName = os.listdir(strin)
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -55,4 +60,9 @@ def main():
         clock.tick(frame_rate)
 
 if __name__ == '__main__':
+    pygame.init()
+    pygame.mixer.init()
+    pygame.mixer.music.load(strin + songName[0])
+    pygame.mixer.music.play()
+    pygame.mixer.music.set_volume(0.2)
     main()

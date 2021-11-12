@@ -22,6 +22,10 @@ class Handler (object):
             pygame.display.quit()
             pygame.quit()
             sys.exit()
+        if event.type == pygame.KEYDOWN and event.key == pygame.K_p:
+            pygame.mixer.music.pause()
+        if event.type == pygame.KEYDOWN and event.key == pygame.K_r:
+            pygame.mixer.music.unpause()
         return False
     
     def delta(self):

@@ -44,7 +44,7 @@ class ScoreboardHandler (Handler):
     def on_event(self, event):
         if Handler.on_event(self, event):
             return True
-        if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE and \
+        if event.type == pygame.KEYDOWN and event.key == pygame.K_PAGEDOWN and \
            self.keyTimer.clock > 200:
             self.keyTimer.reset()
             if Handler.contest.revealUntil < Handler.contest.contestTime:
