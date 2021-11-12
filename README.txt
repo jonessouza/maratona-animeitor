@@ -28,6 +28,7 @@ Keyboard control:
  P - while time is running Tap "P" to pause song or "R" to resume.
  PageDown --- Tap PageDown once to fast-forward to the end of the contest, then tap the PageDown to advance through the contest teams.
  PageUP   --- Tap PageUP when show the "team photo" to set the song. The "Volume" word will show in the left top, then Tap PageUP to up the volume. The volume is configured to stop in "0.8", Tap PageUP to back scoreboard.
+ Q - Tap "Q" to quit
 
 - Change the songs
    Put in "music" folder the background songs. (mp3, ogg, etc files) - The animeitor will play just the first song of the folder (in alphabetic order) 
