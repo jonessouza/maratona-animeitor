@@ -83,7 +83,7 @@ class TeamHandler (Handler):
                                 #get_screen().blit(text, [coluna,6])
                                 get_screen().blit(text, [6,6])
                                 pygame.display.flip()
-                                print('volume ',volume)
+                                #print('volume ',volume)
                                 pygame.mixer.music.set_volume(volume)
                                 if volume > 0.8:
                                     break
@@ -112,7 +112,7 @@ class TeamHandler (Handler):
                                 #get_screen().blit(text, [coluna,6])
                                 get_screen().blit(text, [6,6])
                                 pygame.display.flip()
-                                print('volume ',volume)
+                                #print('volume ',volume)
                                 pygame.mixer.music.set_volume(volume)
                                 if volume > 0.8:
                                     break
